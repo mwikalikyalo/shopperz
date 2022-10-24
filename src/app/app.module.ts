@@ -7,12 +7,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { LoginComponent } from './login/login.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     SignUpComponent,
-    LoginComponent
+    LoginComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
