@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Merriweather:wght@700&family=Montserrat&family=Playfair+Display&family=Raleway&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap');
+
+*{
+  font-family: 'Merriweather', serif;
+  color: #283618;
+  padding: 8px;
+  overflow-x: hidden;
+}
+
+#shopperz{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.sign{
+  padding: 10px;  
+}
+
+button{
+  color: #DDA15E;
+  background-color: #283618;
+}
