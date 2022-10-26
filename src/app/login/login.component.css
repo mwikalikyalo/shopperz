@@ -2,8 +2,10 @@
 *{
   font-family: 'Merriweather', serif;
   color: #283618;
-  padding: 8px;
+  padding: 11px;
+  margin: 0px;
   overflow-x: hidden;
+  background-color: #FEFAE0;
 }
 
 #shopperz{
@@ -19,4 +21,8 @@
 button{
   color: #DDA15E;
   background-color: #283618;
+}
+
+.icons{
+  font-size: 23px;
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -9,7 +10,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 })
 export class LoginComponent implements OnInit {
   faEnvelope= faEnvelope;
-  faCoffee = faCoffee;
+  faFacebook = faFacebook;
+  faSquareTwitter=faSquareTwitter;
   constructor() { }
 
   ngOnInit(): void {
