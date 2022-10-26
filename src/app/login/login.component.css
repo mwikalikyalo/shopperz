@@ -23,6 +23,11 @@ button{
   background-color: #283618;
 }
 
+button:hover{
+  color: #FEFAE0;
+  background-color: #DDA15E;
+}
+
 .icons{
   font-size: 23px;
 }
