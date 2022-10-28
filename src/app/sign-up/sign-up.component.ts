@@ -3,6 +3,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { AuthService } from '@auth0/auth0-angular';
 
 @Component({
   selector: 'app-sign-up',
@@ -15,9 +16,11 @@ export class SignUpComponent implements OnInit {
   faSquareTwitter = faSquareTwitter;
   faCartShopping = faCartShopping;
 
-  constructor() { }
+  constructor(public auth: AuthService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  loginWithRedirect(): void {
+    this.auth.loginWithRedirect({screen_hint: 'signup'});
   }
-
 }
