@@ -11,6 +11,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { ElectronicsComponent } from './electronics/electronics.component';
+import { HomeProductsComponent } from './home-products/home-products.component';
+import { FashionComponent } from './fashion/fashion.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
+    ElectronicsComponent,
+    HomeProductsComponent,
+    FashionComponent,
   ],
   imports: [
     BrowserModule,
