@@ -1,0 +1,19 @@
+footer{
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 50px;
+  background-color: #283618; 
+}
+
+.icons{
+  font-size: 25px;
+  color: #dda15e;
+}
