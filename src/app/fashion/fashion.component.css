@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Merriweather:wght@700&family=Montserrat&family=Playfair+Display&family=Raleway&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap');
+
+img{
+  width: 286px;
+  height: 259px;
+}
+
+h4{
+  padding: 10px;
+  color: #283618;
+  font-size: 28px;
+  font-family: 'Merriweather', serif;
+}
+
+.btn{
+  color: #DDA15E;
+  background-color: #283618;
+}
+
+.btn:hover{
+  color: #FEFAE0;
+  background-color: #DDA15E;
+}
+
+.cards{
+  padding: 15px;
+}
